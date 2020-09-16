@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>JUG.RU Test</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrap">
+        <div class="header-content">
+          <div class="logo">
+            <a href="#">
+              <img src="img/jug_logo 2.svg" alt="Jug logo" />
+            </a>
+          </div>
+          <h1 class="header-content__title">Конференции, которые нужны</h1>
+          <p class="header-content__description">
+            Мы, JUG Ru Group, делаем крупнейшие конференции для программистов и
+            сочувствующих. С нас — крутая программа, топовые спикеры,
+            технические доклады без воды. С вас — готовность смотреть и
+            общаться.
+          </p>
+          <div class="header-btns">
+            <div class="header-btns__buy">
+              <img src="img/say-yes.svg" alt="Yes" />
+              <button class="btn-buy btn-yes">Купить билет</button>
+            </div>
+            <div class="header-btns__buy">
+              <img src="img/say-no.svg" alt="No" />
+              <button class="btn-buy btn-nope">Послать в жопу</button>
+            </div>
+          </div>
+        </div>
+        <div class="header-background__box"></div>
+        <div class="run-lines"></div>
+        <!-- end of WRAP -->
+      </div>
+
+      <!-- FRAME -->
+      <div class="frame">
+        <div class="wrap">
+          <div class="frame-subscribe">
+            <div class="frame-subscribe__title">
+              <img src="img/say-yes.svg" alt="Yes" />
+              <h2>Я хочу знать, когда будет офлайн</h2>
+            </div>
+            <div class="frame-subscribe__form">
+              <input
+                class="frame-subscribe__form-input"
+                type="text"
+                id="email"
+                name="Subscribe"
+                placeholder="Укажите email"
+              />
+              <button class="frame-subscribe__form-btn" type="submit">
+                Подписаться
+              </button>
+              <label class="frame-subscribe__form-label" for="email"
+                >Нажимая на кнопку вы соглашаетесь на обработку
+                <a href="#">персональных данных</a></label
+              >
+              <div class="frame-subscribe__form-send">
+                <img class="frame-subscribe__form-icon" src="img/sended-black.svg" alt="Send">
+                <span>Спасибо, что подписались на нашу рассылку!</span>
+              </div>
+            </div>
+          </div>
+          <div class="frame-interview">
+            <div class="frame-interview__title">
+              <img src="img/say-no.svg" alt="No" />
+              <h2>Идите в жопу!</h2>
+            </div>
+            <div class="frame-interview__btns">
+              <button class="frame-interview__btn" data-target="too-much">
+                Вы свои цены видели?
+              </button>
+              <button class="frame-interview__btn" data-target="what-topics">
+                Доклады ни о чем
+              </button>
+              <button class="frame-interview__btn" data-target="are-you-ok">
+                У вас там всё хорошо?
+              </button>
+              <button class="frame-interview__btn" data-target="no-money">
+                Денег нет, но вы держитесь
+              </button>
+            </div>
+            <div class="frame-interview__thanks">
+              <div class="frame-interview__thanks-box">
+                <img src="img/good.svg" alt="Thank for your answer" />
+                <span>Спасибо, что поделились!</span>
+              </div>
+            </div>
+            <!-- end frame-interview__thanks -->
+            <div class="frame-interview__answer">
+                <div class="frame-interview__answer-title">
+                    Есть хорошая новость — сейчас цены низкие. Плохая — они растут каждый месяц.
+                </div>
+                <div class="answer__line"></div>
+                <div class="frame-interview__answer-description">
+                    Если вы уже участвовали в любой конференции JUG Ru Group, у вас есть скидка на Personal-билет. Оставьте свой имейл, мы проверим факт участия и пришлем промокод.
+                </div>
+                <div class="frame-interview__answer-form">
+                    <input class="frame-interview__answer-form input-answer" id="answer-input" placeholder="Укажите email"></input>
+                    <button class="frame-interview__answer-form btn-answer">Проверить</button>
+                    <label for="answer-input" class="frame-interview__answer-form anwer-label">Нажимая на кнопку, вы соглашаетесь на обработку <a href="#">персональных данных</a></label>
+                    <div class="frame-interview__answer-form-done">
+                        <img src="img/sended.svg" alt="Send">
+                        <span class="answer-done">Спасибо! Скоро свяжемся с вами.</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="frame-exit">
+            <img src="img/exit.svg" alt="Exit" />
+            <span class="frame-exit__title">Я кликнул просто посмотреть</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="main.js"></script>
+  </body>
+</html>
