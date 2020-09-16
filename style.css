@@ -86,7 +86,7 @@ h1 {
     font-size: 36px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   h1 {
     font-size: 28px;
   }
@@ -102,7 +102,7 @@ p {
     font-size: 16px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   p {
     font-size: 12px;
   }
@@ -127,7 +127,7 @@ p {
     font-size: 14px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .header-btns {
     font-size: 11px;
   }
@@ -147,7 +147,7 @@ p {
 .header-btns__buy:first-child {
   margin-right: 20px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .header-btns__buy:first-child {
     margin-right: 15px;
   }
@@ -208,7 +208,7 @@ p {
     background: url(img/jrg_live_background-mobile.png) no-repeat right bottom;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .header-background__box {
     height: 310px;
     width: 100%;
@@ -259,7 +259,7 @@ p {
     background-size: 158px 158px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .run-lines {
     height: 212px;
     width: 216px;
@@ -357,7 +357,7 @@ p {
     padding-top: 60px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame {
     padding-top: 20px;
   }
@@ -382,7 +382,7 @@ p {
     padding: 56px 0px 40px 0px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-subscribe {
     -ms-grid-column: 1;
     -ms-grid-column-span: 6;
@@ -411,7 +411,7 @@ p {
     padding: 38px 44px 70px 44px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-interview {
     -ms-grid-column: 1;
     -ms-grid-column-span: 6;
@@ -441,7 +441,7 @@ p {
     width: 90%;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-subscribe__title,
   .frame-interview__title {
     width: 100%;
@@ -458,7 +458,7 @@ h2 {
     font-size: 28px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   h2 {
     font-size: 16px;
     padding-left: 10px;
@@ -482,7 +482,7 @@ h2 {
     padding-right: 40px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-subscribe__form {
     padding-top: 70px;
     padding-left: 0px;
@@ -498,7 +498,7 @@ h2 {
   width: 50%;
   margin-right: 10px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-subscribe__form-input {
     width: 55%;
     margin-right: 6px;
@@ -518,7 +518,7 @@ h2 {
   transition: all 0.3s ease-in;
   font-size: 14px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-subscribe__form-btn {
     padding: 12px 13px;
     font-size: 11px;
@@ -529,7 +529,7 @@ h2 {
   width: 55%;
   padding-top: 100px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-subscribe__form-label {
     width: 85%;
   }
@@ -567,7 +567,7 @@ h2 {
   line-height: 130%;
   padding-left: 20px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-interview__title {
     padding-bottom: 40px;
     font-size: 12px;
@@ -576,7 +576,7 @@ h2 {
 .frame-interview__title {
   padding-bottom: 70px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-interview__title {
     padding-bottom: 40px;
   }
@@ -591,7 +591,7 @@ h2 {
   flex-direction: column;
   padding: 0px 85px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-interview__btns {
     padding: 0px 13px;
   }
@@ -609,7 +609,7 @@ h2 {
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-interview__btn {
     margin-bottom: 10px;
   }
@@ -689,7 +689,7 @@ h2 {
     justify-content: center;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-exit {
     -ms-grid-column: 1;
     -ms-grid-column-span: 6;
@@ -717,7 +717,7 @@ h2 {
     font-size: 20px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .frame-exit__title {
     font-size: 14px;
   }
