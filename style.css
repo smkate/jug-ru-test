@@ -37,7 +37,7 @@ body {
     max-width: 87.7%;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .wrap {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: repeat(2, 1fr);
@@ -67,7 +67,7 @@ body {
     padding-top: 225px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .header-content {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -165,7 +165,7 @@ p {
     padding: 14px 53px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .btn-buy {
     padding: 13px 18px;
   }
@@ -220,6 +220,7 @@ p {
   height: 516px;
   width: 771px;
   position: absolute;
+  overflow: hidden;
   right: 0;
   background: #000000;
   background: -o-linear-gradient(
@@ -265,7 +266,7 @@ p {
     background-size: 108px 108px;
   }
 }
-.run-lines::after {
+.corner-top {
   position: absolute;
   content: "";
   top: -183%;
@@ -277,22 +278,23 @@ p {
   transform: rotate(45deg);
   background-color: #ffffff;
 }
+
 @media (max-width: 1024px) {
-  .run-lines::after {
+  .corner-top {
     top: -152%;
   }
 }
 @media (max-width: 768px) {
-  .run-lines::after {
+  .corner-top {
     top: -173%;
   }
 }
 @media (max-width: 425px) {
-  .run-lines::after {
+  .corner-top {
     top: -164%;
   }
 }
-.run-lines::before {
+.corner-bottom {
   position: absolute;
   content: "";
   top: -141%;
@@ -305,17 +307,17 @@ p {
   background-color: #ffffff;
 }
 @media (max-width: 1024px) {
-  .run-lines::before {
+  .corner-bottom {
     top: -120%;
   }
 }
 @media (max-width: 768px) {
-  .run-lines::before {
+  .corner-bottom {
     top: -143%;
   }
 }
 @media (max-width: 425px) {
-  .run-lines::before {
+  .corner-bottom {
     left: -86%;
     width: 78%;
     top: -129%;
